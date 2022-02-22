@@ -13,4 +13,4 @@ app.get('/about',(req,res)=>{
     res.sendFile(`${publicPath}/about.html`);
 });
 
-app.listen(5000);
+app.listen();
